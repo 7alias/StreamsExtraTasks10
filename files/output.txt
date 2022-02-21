@@ -1,1 +1,8 @@
-1 2 4
+input.txt
+output.txt
+----------
+Summary: 4 KB
+
+scratch.zip
+----------
+Summary: 5 MB
