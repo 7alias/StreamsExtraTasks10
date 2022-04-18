@@ -29,6 +29,17 @@ public class Task14 {
         for (int i = 1; i < 10; i++) {
             for (int j = 1; j < 10; j++) {
                 forest[i][j] += Math.max(forest[i - 1][j], forest[i][j - 1]);
+
+
+                System.out.print(" "+i);
+
+                System.out.print(" "+j);
+
+                System.out.print(" " + forest[j][0]);
+
+                System.out.print(" "+ forest[0][j]);
+                System.out.println();
+
             }
         }
 
